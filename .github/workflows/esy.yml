@@ -12,8 +12,6 @@ jobs:
   build:
     name: Build and test
     runs-on: ${{ matrix.os }}
-    env:
-      ESYI__OPAM_OVERRIDE_REMOTE: https://github.com/spotandjake/esy-opam-override
 
     strategy:
       fail-fast: false
